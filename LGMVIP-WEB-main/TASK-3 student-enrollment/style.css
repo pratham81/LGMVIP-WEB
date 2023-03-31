@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(66, 200, 209);
+    background-image: linear-gradient(315deg, #9fa4c4 0%, #92f19a 74%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table {
+    width: 65%;
+    margin: 40px auto;
+    background: rgb(184, 218, 218);
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: 'times new roman', Courier, monospace;
+}
+
+h3 {
+    text-align: center;
+    font-size: 59px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table.list {
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    border: 1px solid rgb(69, 4, 112);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even),
+table.list thread>tr {
+    background-color: light rgb(54, 172, 70) (204, 200, 200);
+}
+
+input[type="text"] {
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 4px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background: plum;
+}
+
+input[type="reset"]:hover {
+    background: plum;
+}
+
+button {
+    background: plum;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background: #a3c8e6;
+}
